@@ -2,7 +2,9 @@
   "name": "px-react-web",
   "version": "0.1.0",
   "private": true,
-  "homepage": "./",
+  "homepage": "https://github.com/jyoti-2/LoveLace/tree/master",
+  "predeploy":"npm run build",
+  "deploy": "gh-pages -d build",
   "dependencies": {
     "aphrodite": "^2.3.1",
     "bootstrap": "^4.5.3",
@@ -26,7 +28,9 @@
   },
   "devDependencies": {
     "@babel/plugin-transform-runtime": "^7.6.2",
-    "@storybook/react": "^5.1.9"
+    "@storybook/react": "^5.1.9",
+    "gh": "^2.8.9",
+    "pages": "^0.0.16"
   },
   "browserslist": {
     "production": [
