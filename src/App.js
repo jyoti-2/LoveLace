@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import { BrowserRouter as Router, Route, Link, Switch } from 'react-router-dom';
 import Homepage from 'components/Homepage';
-import SelfProject from './SelfProject/SelfProject';
+
 
 import './App.css';
 import './fonts.css';
