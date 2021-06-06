@@ -1,0 +1,43 @@
+{
+  "name": "px-react-web",
+  "version": "0.1.0",
+  "private": true,
+  "homepage": "./",
+  "dependencies": {
+    "aphrodite": "^2.3.1",
+    "bootstrap": "^4.5.3",
+    "normalize.css": "^8.0.1",
+    "react": "^16.8.6",
+    "react-anchor-link-smooth-scroll": "^1.0.12",
+    "react-app-polyfill": "^1.0.6",
+    "react-bootstrap": "^1.4.0",
+    "react-dom": "^16.8.6",
+    "react-router-dom": "^4.3.1",
+    "react-scripts": "^3.0.1"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "eject": "react-scripts eject",
+    "storybook": "start-storybook"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "devDependencies": {
+    "@babel/plugin-transform-runtime": "^7.6.2",
+    "@storybook/react": "^5.1.9"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "ie 11"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version",
+      "ie 11"
+    ]
+  }
+}
